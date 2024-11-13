@@ -1,0 +1,50 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background: lightblue;
+    place-items: center;
+}
+.pi{
+    font-size: 50px;
+}
+@media screen and (min-width: 400px){
+    .box{
+        background: yellow;
+    }
+    p::before {
+        content: "Man 400px"; /* Adds text after the paragraph content */
+      }
+}
+@media (min-width: 576px){
+    .box{
+        background:crimson;
+         }
+         p::before {
+            content: "Man 567px"; /* Adds text after the paragraph content */
+          }
+     
+}
+@media (min-width: 768px){
+    .box{
+        background:blueviolet;
+         }
+         p::before {
+            content: "Man 768px"; /* Adds text after the paragraph content */
+          }
+     
+}
+@media (min-width: 1200px){
+    .box{
+        background:blueviolet;
+         }
+         p::before {
+            content: "Man 1200px"; /* Adds text after the paragraph content */
+          }
+     
+}

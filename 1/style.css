@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%;
+}
+/* 
+ .men{    /*katta klas  
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+    
+     margin-left: 100px;  bu 100px o'ngga suradi
+    gap: 50px;
+     display: flex; /*kantenerlani yonma joylash uchun quyildi  
+    margin-top: 100px;
+} */
+
+body{
+ 
+  background-image: url(./imgs/orqafon2.jpg);
+   background-repeat: no-repeat; /*background rasm kardcha bulib kupayib ketadi */
+  background-size: cover; /*orqafondagi rasmni ekran bilan tuliq urab turishi uchun ishlatildi*/
+
+  margin-top: 100px;  /*bunga katta px bersa kardchalani pastga tushiradi agar 40px berilsa kardchalani tepaga kutaradi*/
+
+  
+
+}
+.men{
+   display: flex; /*kardlarni yonma yon turishi uchun ishlatildi*/
+   /* justify-content: space-around; */
+   justify-content: center;  /*kardlarni urtaga keltirish uchun ishlatildi*/
+   gap: 70px;
+   padding: 100px ; 
+}
+@media  (max-width:1244px) {
+    .men{
+        flex-wrap: wrap;
+        }
+    }
+.card1{
+    background: white;
+}
+.card2{
+    background: white;
+}
+.card3{
+    background: white;
+}
+.card4{
+    background: white;
+}
+
+  
